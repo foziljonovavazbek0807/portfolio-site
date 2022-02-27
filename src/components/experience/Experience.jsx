@@ -11,7 +11,7 @@ function Experience() {
 
       <div className="container experience__container">
         <div className="container__frontend">
-          <h3>Frontend Development(stap one)</h3>
+          <h3>Frontend Development(First stap)</h3>
           <div className="experience__content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon"/>
@@ -44,7 +44,7 @@ function Experience() {
           </div>
         </div>
         <div className="container__frontend">
-          <h3>Frontend Development(stap two)</h3>
+          <h3>Frontend Development(Second stap)</h3>
           <div className="experience__content">
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon"/>
