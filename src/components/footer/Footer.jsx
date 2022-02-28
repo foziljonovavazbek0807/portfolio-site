@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import {FaFacebookF} from "react-icons/fa";
+import {FaTelegramPlane} from "react-icons/fa";
+import {RiInstagramFill} from "react-icons/ri";
+import {RiWhatsappFill} from "react-icons/ri";
 
 function Footer() {
   return (
@@ -18,7 +20,13 @@ function Footer() {
       </ul>
 
       <div className="footer_socials">
-        <a href="#!"><FaFacebookF/></a>
+        <a href="#!"><FaTelegramPlane className="icon"/></a>
+        <a href="#!"><RiInstagramFill className="icon"/></a>
+        <a href="#!"><RiWhatsappFill className="icon"/></a>
+      </div>
+
+      <div className="footer_copyright">
+        <small>&copy; Prince Tutorials. All rights reserved.</small>
       </div>
     </footer>
   )
